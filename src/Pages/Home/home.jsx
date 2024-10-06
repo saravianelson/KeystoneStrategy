@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import { AboutMe } from "../About/about";
 import { Portfolio } from "../Portfolio/portfolio";
 import { Skills } from "../Skills/skills";
-import { Contact } from "../Contact/contact";
-import { Footer } from "../Footer/footer";
-import Navbar from "../../Components/Navbar/Navbar";
+import { Contact } from "../../shared/Contact/contact";
+import { Footer } from "../../shared/Footer/footer";
+import Navbar from "../../shared/Navbar/Navbar";
 
 export const Home = () => {
   const [selectedItem, setSelectedItem] = useState("home");

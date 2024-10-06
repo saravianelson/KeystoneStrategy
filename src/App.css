@@ -230,6 +230,9 @@ span {
 
 /* Estilos para dispositivos móviles */
 @media (max-width: 768px) {
+  .wrapper{
+    height: 100vh;
+  }
   .header .navbar {
     display: none;
     flex-direction: column;
