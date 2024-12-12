@@ -1,13 +1,14 @@
 .bank  {
     height: 100vh;
-    text-align: left;
-    margin: 6em;
+    text-align: center;
     padding: 4em;
-    background-color: aliceblue;
-    border-radius: 3em;
+    background-color: #FFFF;
+    color: black;
+    border-radius: 1em;
 }
 
 .bank img {
-    width: 500px;
-    height: 300px;
+    width: 600px;
+    height: 400px;
+    margin-bottom: 1.5em;
 }

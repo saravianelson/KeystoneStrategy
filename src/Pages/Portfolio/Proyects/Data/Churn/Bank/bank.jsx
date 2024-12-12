@@ -20,9 +20,9 @@ const Bank = () => {
                    El objetivo es responder a las preguntas correctas que ayudarán a la empresa a<br></br> 
                    tomar las decisiones correctas.</p><br></br>
                 <h3>Resultado</h3>
-                Los resultados se presentan en un informe con recomendaciones y pasos de seguimiento. <br></br>
+                <p>Los resultados se presentan en un informe con recomendaciones y pasos de seguimiento. <br></br>
                 Con base en este informe, se pueden tomar decisiones claras y bien fundadas, se pueden<br></br>
-                ahorrar costos y optimizar los procesos.<br></br>
+                ahorrar costos y optimizar los procesos.</p><br></br>
                 <h3>CASO - ¿Cómo optimizar el embudo de clientes?</h3>
                 <h3></h3>
             </div>
