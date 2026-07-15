@@ -6,6 +6,7 @@ import { Contact } from "../../shared/Contact/contact";
 import { Footer } from "../../shared/Footer/footer";
 import Navbar from "../../shared/Navbar/Navbar";
 
+
 export const Home = () => {
   const [selectedItem, setSelectedItem] = useState("home");
   const [menuOpen, setMenuOpen] = useState(false);
@@ -31,20 +32,23 @@ export const Home = () => {
           </div>
         </header>
         <div className="submission">
-          <div className="hello">
+          {/* <div className="hello">
             <h1>Hello!</h1>
-            </div>
+            </div> */}
             <div className="info-content">
             <h2>
-            I'm
-              <span> Nelson Saravia</span> 
+              <span> KEYSTONE STRATEGY </span> 
             </h2>
-            <span className="info-content__subtitle">
-              Data Scientist
+            <br></br>
+             <span className="info-content__subtitle">
+              Digital Strategy & Technical Solutions
             </span>
             <br></br>
             <span className="info-content__subtitle2">
-              Front End Developer
+              Potenciamos tu empresa mediante la integración estratégica de sistemas, 
+              desarrollo de software a medida y migraciones de datos de alta complejidad. 
+              Combinamos ingeniería de precisión con estrategias de marketing orientadas 
+              a resultados.
             </span>
             <p className="info-content__p"></p>
             {/* <a href="#portfolio">

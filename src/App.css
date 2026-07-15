@@ -6,7 +6,7 @@
   /* font-size: x-large; */
   /* fondo #EADEB8 */
   /* Letras #7C8252 */
-  font-family: 'Inter', 'Arial', sans-serif;
+  font-family: 'Times New Roman';
 }
 
 html {
@@ -14,14 +14,14 @@ html {
 }
 
 .wrapper {
-  background-color: #EADEB8;
-  color: #7C8252;
+  background-color: #FFFF;
+  color: #15073b;
   padding: 20px;
 }
 
 .header {
   background-color: rgba(21, 31, 40, 0.8);
-  color: #7C825218;
+  color: #15073b;
   padding: 10px;
   display: flex;
   justify-content: space-between;
@@ -57,7 +57,7 @@ html {
 
 .header .navbar ul li a {
   text-decoration: none;
-  color: #7C8252;
+  color: #15073b;
   margin: 0 12px;
   font-weight: 400;
   transition: 0.5s;
@@ -74,7 +74,7 @@ html {
   width: auto;
   padding: 8px 12px;
   background-color: #1BC23E;
-  color: #7C8252;
+  color: #15073b;
   border: none;
   border-radius: 2.5em;
   cursor: pointer;
@@ -100,12 +100,12 @@ html {
   filter: drop-shadow(1px 3px 8px rgba(39, 37, 45, 0.69));
   box-shadow: 3px 6px 11px -5px rgba(29, 26, 36, 0.69);
 }
-
+/* 
 .hello h1 {
   font-size: 7em;
   -webkit-animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
           animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-}
+} */
 
 @-webkit-keyframes tracking-in-contract {
   0% {
@@ -137,7 +137,7 @@ html {
 
 .info-content {
   padding: 30px;
-  font-size: 3em;
+  font-size: 2.5em;
 
 	-webkit-animation: tracking-in-expand 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 	        animation: tracking-in-expand 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
@@ -167,10 +167,10 @@ html {
       opacity: 1;
     }
   }
-
+/* 
 .info-content h1 {
-  font-size: 3em;
-}
+  font-size: 1em;
+} */
 
 
 .info-content__subtitle, .info-content__subtitle2 {
@@ -204,20 +204,20 @@ html {
 
 
 span {
-  color: #7C8252;
+  color: #15073b;
 }
 
 
 
 .contact {
   padding: 10px 30px;
-  background-color: #EADEB8;
-  color: #7C8252;
+  background-color: #15073b;
+  color: #ffff;
   border: none;
   border-radius: 20px;
   margin-top: 20px;
   cursor: pointer;
-  box-shadow: 2px 4px 11px 2px rgba(249, 247, 255, 0.69);
+  box-shadow: 2px 4px 11px 2px rgba(130, 97, 228, 0.69);
 }
 
 .contact:hover {
@@ -239,7 +239,7 @@ span {
     position: absolute;
     top: 70px; /* Ajusta esto según tu diseño */
     left: 0;
-    background-color: #7C8252;
+    background-color: #ffff;
     width: 100%;
     text-align: center;
     z-index: 1;
@@ -259,16 +259,16 @@ span {
 
   .header .navbar ul li a {
     text-decoration: none;
-    color: #7C8252;
+    color: #15073b;
     margin: 0;
     font-weight: 400;
     font-size: 1.5em;
     padding: 10px 0;
   }
-  .hello h1 {
+  /* .hello h1 {
     font-size: 6em;
   }
-  
+   */
 .info-content {
   padding: 40px;
   font-size: 1.5em;

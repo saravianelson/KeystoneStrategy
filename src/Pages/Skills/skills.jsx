@@ -39,7 +39,7 @@ export const Skills = () => {
 
         <div className="skill">
           <div className="info">
-            <p><img className="skill-icon" src="/assets/img/data-solid-24.png" alt="" />Data Base</p>
+            <p><img className="skill-icon" src="/assets/img/data-solid-24.png" alt="" />DBA</p>
             <span className="percent">87%</span>
           </div>
           <div className="bar">

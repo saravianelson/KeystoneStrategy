@@ -1,7 +1,7 @@
 
 .about {
     display: grid;
-    background-color: #EADEB8;
+    background-color: #ffff;
     grid-template-columns: repeat(10, 1fr);
     align-items: center;
   }
@@ -13,7 +13,7 @@
     border: none;
     border-radius: 20px;
     margin-top: 10px;
-    box-shadow: 3px 6px 11px -5px #7C8252;
+    box-shadow: 3px 6px 11px -5px #15073b;
     grid-column: 2/5;
     transform: scaleX(-1);
   }
@@ -25,21 +25,21 @@
   
   .about-info h2 {
     font-size: 2em; 
-    color: #7C8252;
+    color: #15073b;
   }
   
   
   .about .divider {
     height: 4px;
     width: 60px;
-    background-color: #7C8252;
+    background-color: #15073b;
     margin-top: 5px;
     margin-bottom: 2em;
   }
   
   .about p {
     margin-bottom: 1em;
-    color: #7C8252;
+    color: #15073b;
   }
 
   

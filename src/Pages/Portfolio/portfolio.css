@@ -1,23 +1,23 @@
 #portfolio {
   padding: 3em;
   margin: auto;
-  background-color: #EADEB8;
+  background-color: #ffff;
 }
 
 #portfolio .portfolio-headings {
   font-size: 2.5em;
-  color: #7C8252;
+  color: #15073b;
 }
 
 #portfolio .portfolio-headings-2 {
   padding: 1.5em;
-  color: #7C8252;
+  color: #15073b;
 }
 
 #portfolio .divider {
   height: 4px;
   width: 60px;
-  background-color: #7C8252;
+  background-color: #15073b;
   margin-top: 5px;
   margin-bottom: 2em;
 }

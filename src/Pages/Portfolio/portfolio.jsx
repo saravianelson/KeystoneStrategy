@@ -11,11 +11,11 @@ export const Portfolio = () => {
           <div className="overlay"></div>
           <a
             className="media-figure tw-screenshot undefined"
-            href="https://pollitotravieso.netlify.app/"
+            href="/bankPage"
             target="_blank"
             rel="noopener noreferrer"
             aria-describedby="open-in-new-tab"
-            title="Go to site Pollito Travieso Accesorios"
+            title="Go to Churn Analisis"
           >
             <picture className="tw-border-none tw-m-0 tw-p-0 tw-block tw-w-full tw-align-middle tw-max-w-full tw-h-auto">
               <source
@@ -37,8 +37,8 @@ export const Portfolio = () => {
             </picture>
           </a>
           <div className="info">
-            <h3>Pollito Travieso Accesorios</h3>
-            <p>Maquetado para página Ecommerce</p>
+            <h3>Churn Analisis</h3>
+            <p>Analisis Churn para banco</p>
           </div>
         </div>
       </div>
