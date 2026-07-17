@@ -1,17 +1,17 @@
 .container-skills {
-    background-color: #EADEB8;
+    background-color: #ffff;
     padding: 40px;
   }
   
   .skills-heading {
     font-size: 2rem; 
-    color: #0A0D14;
+    color: #15073b;
   }
 
   .divider {
     height: 4px;
     width: 60px;
-    background-color: #0A0D14;
+    background-color: #15073b;
     margin-top: 5px;
     margin-bottom: 2em;
   }

@@ -1,8 +1,9 @@
 import React from 'react';
-import './footer.css'
+import "./footer.css"
 
 export const Footer = () => {
   return (
+    <>
     <footer className="footer">
       <div className="sotial-network">
         <a href="https://github.com/saravianelson" target="_blank" rel="noopener noreferrer">
@@ -19,6 +20,7 @@ export const Footer = () => {
         <h6> © 2021 Nelson Saravia</h6>
       </div>
     </footer>
+    </>
   );
 };
 

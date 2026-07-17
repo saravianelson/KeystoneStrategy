@@ -1,0 +1,14 @@
+.bank  {
+    height: 100vh;
+    text-align: center;
+    padding: 4em;
+    background-color: #FFFF;
+    color: black;
+    border-radius: 1em;
+}
+
+.bank img {
+    width: 600px;
+    height: 400px;
+    margin-bottom: 1.5em;
+}

@@ -2,9 +2,10 @@ import React, { useState } from "react";
 import { AboutMe } from "../About/about";
 import { Portfolio } from "../Portfolio/portfolio";
 import { Skills } from "../Skills/skills";
-import { Contact } from "../Contact/contact";
-import { Footer } from "../Footer/footer";
-import Navbar from "../../Components/Navbar/Navbar";
+import { Contact } from "../../shared/Contact/contact";
+import { Footer } from "../../shared/Footer/footer";
+import Navbar from "../../shared/Navbar/Navbar";
+
 
 export const Home = () => {
   const [selectedItem, setSelectedItem] = useState("home");
@@ -31,20 +32,25 @@ export const Home = () => {
           </div>
         </header>
         <div className="submission">
-          <div className="hello">
+          {/* <div className="hello">
             <h1>Hello!</h1>
-            </div>
+            </div> */}
             <div className="info-content">
             <h2>
-            I'm
-              <span> Nelson Saravia</span> 
+              <span> KEYSTONE STRATEGY </span> 
             </h2>
-            <span className="info-content__subtitle">
-              Data Scientist
+            <br></br>
+             <span className="info-content__subtitle">
+              Digital Strategy & Technical Solutions
             </span>
             <br></br>
+            <br></br>
             <span className="info-content__subtitle2">
-              Front End Developer
+             We empower your business through strategic systems integration, 
+             custom software development, and complex data migration.
+            <br></br>
+            <br></br>
+            We combine precision engineering with results-driven marketing strategies.
             </span>
             <p className="info-content__p"></p>
             {/* <a href="#portfolio">
