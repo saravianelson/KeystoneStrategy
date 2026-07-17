@@ -44,11 +44,13 @@ export const Home = () => {
               Digital Strategy & Technical Solutions
             </span>
             <br></br>
+            <br></br>
             <span className="info-content__subtitle2">
-              Potenciamos tu empresa mediante la integración estratégica de sistemas, 
-              desarrollo de software a medida y migraciones de datos de alta complejidad. 
-              Combinamos ingeniería de precisión con estrategias de marketing orientadas 
-              a resultados.
+             We empower your business through strategic systems integration, 
+             custom software development, and complex data migration.
+            <br></br>
+            <br></br>
+            We combine precision engineering with results-driven marketing strategies.
             </span>
             <p className="info-content__p"></p>
             {/* <a href="#portfolio">
