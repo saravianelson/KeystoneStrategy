@@ -7,6 +7,8 @@ import { Footer } from "../../shared/Footer/footer";
 import Navbar from "../../shared/Navbar/Navbar";
 
 
+import './home.css'
+
 export const Home = () => {
   const [selectedItem, setSelectedItem] = useState("home");
   const [menuOpen, setMenuOpen] = useState(false);
@@ -22,19 +24,11 @@ export const Home = () => {
 
   return (
     <section id="home">
-      <div className="wrapper">
+      {/* <div className="wrapper"> */}
         <header>
-          <div className="brand">
-            <h2>
-              <span> </span>
-            </h2>
-        <Navbar />
-          </div>
-        </header>
         <div className="submission">
-          {/* <div className="hello">
-            <h1>Hello!</h1>
-            </div> */}
+           {/* <img src="/assets/img/portada.png" alt="" /> */}
+        <Navbar />
             <div className="info-content">
             <h2>
               <span> KEYSTONE STRATEGY </span> 
@@ -45,13 +39,13 @@ export const Home = () => {
             </span>
             <br></br>
             <br></br>
-            <span className="info-content__subtitle2">
+            {/* <span className="info-content__subtitle2">
              We empower your business through strategic systems integration, 
              custom software development, and complex data migration.
             <br></br>
             <br></br>
             We combine precision engineering with results-driven marketing strategies.
-            </span>
+            </span> */} 
             <p className="info-content__p"></p>
             {/* <a href="#portfolio">
               <button className="contact">My Portfolio</button>
@@ -59,9 +53,10 @@ export const Home = () => {
           </div>
           {/* <img src="/assets/img/desarrollo-web.jpeg" alt="" /> */}
         </div>
-      </div>
-      <Portfolio />
+        </header>
+      {/* </div> */}
       <Skills />
+      <Portfolio />
       <AboutMe />
       <Contact />
       <Footer />
