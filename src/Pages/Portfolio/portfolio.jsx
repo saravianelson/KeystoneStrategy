@@ -29,8 +29,8 @@ export const Portfolio = () => {
               <img
                 src="https://screenshot-proxy.netlify.app/f_jpg,fit_cover,s_1920x1200/https://d33wubrfki0l68.cloudfront.net/657a14f7b351210008e859d0/screenshot_2023-12-13-20-33-16-0000.png"
                 alt=""
-                width="168"
-                height="105"
+                width="1920"
+                height="1200"
                 loading="lazy"
                 className="tw-align-top tw-h-full tw-w-full"
               />

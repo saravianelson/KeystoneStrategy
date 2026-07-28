@@ -15,7 +15,7 @@ html {
 
 .wrapper {
   background-color: #FFFF;
-  color: #15073b;
+  color: #eeee;
   padding: 20px;
 }
 
@@ -30,7 +30,7 @@ html {
 
 .header .brand {
   font-size: 1.2em;
-  display: flex;
+  display: flex; 
   align-items: center;
 }
 
@@ -57,7 +57,7 @@ html {
 
 .header .navbar ul li a {
   text-decoration: none;
-  color: #15073b;
+  color: #eeee;
   margin: 0 12px;
   font-weight: 400;
   transition: 0.5s;
@@ -81,16 +81,29 @@ html {
   box-shadow: 1px 6px 11px -5px rgba(102, 231, 167, 0.69);
 }
 
+
+.submission {
+  text-align: center;
+  padding: 1.5em;
+}
+
+
+.submission .navbar .menu li a {
+  color: #eeee;
+  padding: 1em;
+}
+
+.submission .info-content {
+  padding: 4em;
+}
+
+
 .login-button:hover {
   box-shadow: none;
 }
 
-.submission {
-  text-align: center;
-  padding: 80px;
-}
 
-.submission img {
+/* .submission img {
   width: 100%;
   max-width: 450px;
   height: auto;
@@ -98,8 +111,8 @@ html {
   border-radius: 20px;
   margin: 20px 0;
   filter: drop-shadow(1px 3px 8px rgba(39, 37, 45, 0.69));
-  box-shadow: 3px 6px 11px -5px rgba(29, 26, 36, 0.69);
-}
+  box-shadow: 3px 6px 11px -5px rgba(29, 26, 36, 0.69); */
+/* } */
 /* 
 .hello h1 {
   font-size: 7em;
@@ -204,7 +217,7 @@ html {
 
 
 span {
-  color: #15073b;
+  color: #eeeeee;
 }
 
 

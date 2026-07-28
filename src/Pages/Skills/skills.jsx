@@ -4,7 +4,7 @@ import './skills.css';
 export const Skills = () => {
   return (
     <div className="container-skills" id="skills">
-      <h2 className="skills-heading">Skills</h2>
+      <h2 className="skills-heading">Services</h2>
       <div className="divider"></div>
       <div className="skills-list">
         <div className="skill">
