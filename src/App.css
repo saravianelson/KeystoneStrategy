@@ -90,6 +90,7 @@ html {
 
 .submission .navbar .menu li a {
   color: #eeee;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.8);
   padding: 1em;
 }
 
@@ -250,9 +251,9 @@ span {
     display: none;
     flex-direction: column;
     position: absolute;
-    top: 70px; /* Ajusta esto según tu diseño */
+    top: 80px; /* Ajusta esto según tu diseño */
     left: 0;
-    background-color: #ffff;
+    background-color: #eeee;
     width: 100%;
     text-align: center;
     z-index: 1;
@@ -282,8 +283,14 @@ span {
     font-size: 6em;
   }
    */
+.submission {
+  padding: 1.5em;
+}
+
 .info-content {
-  padding: 40px;
+  text-align: center;
+  padding: 80px;
+  margin-top: 11em;
   font-size: 1.5em;
 }
 

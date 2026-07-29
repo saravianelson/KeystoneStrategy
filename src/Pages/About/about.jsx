@@ -6,8 +6,10 @@ export function AboutMe() {
     <section id="aboutme" className="about">
       {/* <img src="/assets/img/nsaravia.png" alt="" /> */}
       <div className="about-info">
-        <h2>About me</h2>
-        <div className="divider"></div>
+        <h2>About us</h2>
+        <br />
+        <br />
+        {/* <div className="divider"></div> */}
         <p>
           Soy un cordobés apasionado por la tecnología y el conocimiento, en
           constante búsqueda de nuevos desafíos y oportunidades de aprendizaje.
@@ -40,6 +42,7 @@ export function AboutMe() {
           target="_blank"
           rel="noopener noreferrer"
         >
+          <br />
           <button className="contact">Download CV</button>
         </a>
       </div>

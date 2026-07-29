@@ -5,6 +5,44 @@ export const Portfolio = () => {
     <section id="portfolio">
       <h2 className="portfolio-headings">Portfolio</h2>
       <div className="divider"></div>
+        <span className="info-content__subtitle">We combine precision engineering with results-driven marketing strategies.</span>
+        <h3 className="portfolio-headings-2">Marketing</h3>
+        <div className="row">
+        <div className="proyect">
+          <div className="overlay"></div>
+          <a
+            className="media-figure tw-screenshot undefined"
+            href="/bankPage"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-describedby="open-in-new-tab"
+            title="Go to Churn Analisis"
+          >
+            <picture className="tw-border-none tw-m-0 tw-p-0 tw-block tw-w-full tw-align-middle tw-max-w-full tw-h-auto">
+              <source
+                srcSet="https://screenshot-proxy.netlify.app/f_avif,fit_cover,s_1920x1200/https://d33wubrfki0l68.cloudfront.net/657a14f7b351210008e859d0/screenshot_2023-12-13-20-33-16-0000.png"
+                type="image/avif"
+              />
+              <source
+                srcSet="https://screenshot-proxy.netlify.app/f_webp,fit_cover,s_1920x1200/https://d33wubrfki0l68.cloudfront.net/657a14f7b351210008e859d0/screenshot_2023-12-13-20-33-16-0000.png"
+                type="image/webp"
+              />
+              <img
+                src="https://screenshot-proxy.netlify.app/f_jpg,fit_cover,s_1920x1200/https://d33wubrfki0l68.cloudfront.net/657a14f7b351210008e859d0/screenshot_2023-12-13-20-33-16-0000.png"
+                alt=""
+                width="1920"
+                height="1200"
+                loading="lazy"
+                className="tw-align-top tw-h-full tw-w-full"
+              />
+            </picture>
+          </a>
+          <div className="info">
+            <h3>Churn Analisis</h3>
+            <p>Analisis Churn para banco</p>
+          </div>
+        </div>
+      </div>
         <h3 className="portfolio-headings-2">Data Science</h3>
         <div className="row">
         <div className="proyect">

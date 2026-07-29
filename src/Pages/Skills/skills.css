@@ -1,21 +1,35 @@
 .container-skills {
-    background-color: #ffff;
-    padding: 40px;
+    background-color: #000000;
+    padding: 4em;
+    max-height: 100vh; 
   }
   
   .skills-heading {
-    font-size: 2rem; 
-    color: #15073b;
+    color: #eba576ee;
+    font-size: 1em; 
+    margin-top: 70px;
+    margin-left: 200px;
   }
 
   .divider {
-    height: 4px;
+    height: 2px;
     width: 60px;
-    background-color: #15073b;
+    background-color: #eeee;
     margin-top: 5px;
     margin-bottom: 2em;
+    margin-left: 200px;
   }
   
+  .info-content__subtitle2 {
+    font-size: 3em;
+    text-align: center;
+    color: #eeee;
+    /* padding: 4em; */
+    /* margin-left: 200px; */
+
+}
+
+
   .skills-list {
     display: flex;
     flex-wrap: wrap;

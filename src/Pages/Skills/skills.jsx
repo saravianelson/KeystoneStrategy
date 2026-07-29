@@ -4,9 +4,13 @@ import './skills.css';
 export const Skills = () => {
   return (
     <div className="container-skills" id="skills">
-      <h2 className="skills-heading">Services</h2>
+      <h2 className="skills-heading">SERVICES</h2>
       <div className="divider"></div>
-      <div className="skills-list">
+        <span className="info-content__subtitle2">
+             We empower your business through strategic systems integration, 
+             custom software development, and complex data migration.
+             </span>
+      {/* <div className="skills-list">
         <div className="skill">
           <div className="info">
             <p><img className="skill-icon" src="/assets/img/html.png" alt="" />HTML & CSS</p>
@@ -68,7 +72,7 @@ export const Skills = () => {
           </div>
         </div>
 
-      </div>
+      </div> */}
     </div>
   );
 };

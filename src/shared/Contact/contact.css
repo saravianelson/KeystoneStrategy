@@ -1,9 +1,9 @@
 .contact-section {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
-  background-color: #181818;
+  background-color: #000000;
   color: #fff;
-  padding: 3em;
+  padding: 4em;
   margin: 0 auto;
 }
 
@@ -27,7 +27,7 @@
   list-style: none;
 }
 .contact-details ul li {
-  margin-top: 7px;
+  margin-top: 12px;
 }
 
 .contact-details ul li a {
@@ -40,7 +40,7 @@
   margin: 0 auto;
   margin-left: 30em;
   margin-bottom: 0.5em;
-  margin-top: 3em;
+  margin-top: 10em;
 }
 
 .form {
