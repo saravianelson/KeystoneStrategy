@@ -6,6 +6,7 @@ export const Portfolio = () => {
       <h2 className="portfolio-headings">Portfolio</h2>
       <div className="divider"></div>
         <span className="info-content__subtitle">We combine precision engineering with results-driven marketing strategies.</span>
+        <div className="portfolio_img"></div>
         <h3 className="portfolio-headings-2">Marketing</h3>
         <div className="row">
         <div className="proyect">

@@ -10,6 +10,7 @@ export const Skills = () => {
              We empower your business through strategic systems integration, 
              custom software development, and complex data migration.
              </span>
+             <div className="services_img"></div> 
       {/* <div className="skills-list">
         <div className="skill">
           <div className="info">

@@ -1,6 +1,7 @@
 import React from "react";
 import './about.css'
 
+
 export function AboutMe() {
   return (
     <section id="aboutme" className="about">
@@ -11,31 +12,27 @@ export function AboutMe() {
         <br />
         {/* <div className="divider"></div> */}
         <p>
-          Soy un cordobés apasionado por la tecnología y el conocimiento, en
-          constante búsqueda de nuevos desafíos y oportunidades de aprendizaje.
-          Actualmente, me desempeño como Desarrollador orientado al Front y
-          incursionando en el área del Data Science.
+         Who We Are
         </p>
         <p>
-          Además de mi interés por la tecnología, soy padre de familia y
-          disfruto de compartir tiempo de calidad con mis seres queridos. En mi
-          tiempo libre, me gusta relajarme con un buen ferné y explorar nuevas
-          experiencias culinarias.
+          At Keystone Strategy, we believe that sustainable business growth sits at the intersection 
+          of rigorous data, robust engineering, and strategic marketing. We are not a massive, impersonal agency; 
+          we are a specialized consultancy built by entrepreneurs who understand the real-world complexities
+          of running and scaling a business.
         </p>
         <p>
-          Soy un pensador inquisitivo y me apasionan temas diversos como la
-          filosofía, la historia y la economía. Creo en la importancia del
-          conocimiento en constante expansión y la aplicación de la tecnología
-          para resolver problemas.
+          Our Approach
         </p>
         <p>
-          También soy emprendedor, lo que me ha brindado una valiosa experiencia en la gestión de
-          negocios.
+          We combine technical precision with results-driven execution. 
+          By merging advanced data science, custom software development,
+          and seamless systems integration with targeted marketing strategies,
+          we help companies eliminate operational friction and unlock predictable revenue.
         </p>
         <p>
-          Mi enfoque principal está en el desarrollo Web Front End y las
-          Ciencias de Datos, lo que me permite combinar mis habilidades técnicas
-          con mi pasión por la innovación.
+          Just like a architectural keystone holds an entire structure together,
+          our mission is to become the core support system that bridges your technical
+          infrastructure with your commercial goals.
         </p>
         <a
           href="https://drive.google.com/file/d/196yBNE5RTge0Dd6Eud-i5KYpjmSjKHi8/view?usp=sharing"
@@ -43,7 +40,7 @@ export function AboutMe() {
           rel="noopener noreferrer"
         >
           <br />
-          <button className="contact">Download CV</button>
+          <button className="contact">Contact us</button>
         </a>
       </div>
     </section>

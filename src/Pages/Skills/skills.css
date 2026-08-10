@@ -30,6 +30,26 @@
 }
 
 
+.services_img{
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/assets/img/services.png');
+  background-size: cover;          
+  background-position: center;     
+  background-repeat: no-repeat;    
+  min-height: 60vh;               
+  max-width: 70vw;
+  color: #ffff;
+  padding: 1em;   
+  margin-top: 1em;
+  margin-bottom: 1.5em;              
+}
+
+.services_img{
+  position: relative;
+  z-index: 2;                      
+}
+
+
   .skills-list {
     display: flex;
     flex-wrap: wrap;

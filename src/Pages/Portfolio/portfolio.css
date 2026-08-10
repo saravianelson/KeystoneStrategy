@@ -1,13 +1,18 @@
 #portfolio {
-  padding: 4em;
+  display: grid; 
+  flex: 0 0 auto;
+  gap: 20px;
+  grid-template-columns: repeat(2, minmax(50px, 1fr));
+  padding: 5em;
   margin: auto;
   background-color: #000000;
+  align-items: center;
 }
 
 #portfolio .portfolio-headings {
     color: #eeee;
     font-size: 3em; 
-    margin-top: 70px;
+    padding: 1em;
     margin-left: 200px;
   }
 
@@ -28,6 +33,28 @@
   /* margin-top: 5px; */
   /* margin-bottom: 2em; */
 }
+
+
+.portfolio_img{
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/assets/img/portfolio.png');
+  background-size: cover;          
+  background-position: center;     
+  background-repeat: no-repeat;    
+  min-height: 80vh;               
+  max-width: 30vw;
+  color: #ffff;
+  padding: 1em;   
+  margin-top: 1em;
+  margin-bottom: 1.5em;              
+}
+
+.portfolio_img{
+  position: relative;
+  z-index: 2;                      
+}
+
+
 
 #portfolio .row {
   display: grid;

@@ -24,7 +24,7 @@
   }
   
   .about-info h2 {
-    font-size: 2em; 
+    font-size: 4em; 
     color: #eeee;
   }
   
@@ -38,10 +38,21 @@
   }
   
   .about p {
+    font-size: 2em;
     margin-bottom: 1em;
     color: #eeee;
   }
 
+  .contact {
+  padding: 10px 20px;
+  margin: 1em;
+  border: none;
+  background-color: #f5f5f5;
+  color: #0c0c0c;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 1px 6px 11px -5px rgb(255, 242, 126);
+}
   
 /* Estilos específicos para dispositivos móviles */
 @media (max-width: 768px) {
